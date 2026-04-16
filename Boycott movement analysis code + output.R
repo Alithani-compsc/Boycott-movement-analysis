@@ -253,7 +253,10 @@ Saving all graphs
 > ggsave("country_comparison.png", p4, width = 12, height = 6, dpi = 300)
 > # Save data summary
 > write_csv(summary_stats, "analysis_summary_statistics.csv")
-[1mwrote[0m [32m2.15GB[0m in [36m 0s[0m, [32m2.15GB/s[0m                                                                              > print(" 4 graphs are created")
+
+[1mwrote[0m [32m2.15GB[0m in [36m 0s[0m, [32m2.15GB/s[0m
+                                                                              
+> print(" 4 graphs are created")
 [1] " 4 graphs are created"
 > 
 > # Display graphs on screen
