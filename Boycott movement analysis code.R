@@ -115,7 +115,7 @@ p1 <- ggplot(clean_data, aes(x = date, y = hits, color = keyword)) +
  geom_line(size = 1.1, alpha = 0.9) +
  geom_point(size = 1.1) +
  labs(title = "BOYCOTT MOVEMENT SEARCH TRENDS IN MALAYSIA",
- subtitle = "Time-Series Analysis of Public Interest (Jan 2025 - Oct 2025)",
+ subtitle = "Time-Series Analysis of Public Interest (6 month time window)",
  x = "Timeline",
 
  y = "Google Search Interest Index",
